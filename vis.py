@@ -11,7 +11,6 @@ import audio_classifier as ac
 def init():
     Mic.set_image()
     Info_Box.set_image()
-    
 class Info_Box(ui.Image):
     IMAGE = None
     NAME_RECT = None
