@@ -141,3 +141,4 @@ cython_debug/
 
 .idea/
 /train/data/UrbanSound8K/
+/running_data/
