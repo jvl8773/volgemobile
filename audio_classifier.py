@@ -26,7 +26,7 @@ def init():
         os.mkdir('running_data')
 
 class Mic:
-    MODEL = tf.keras.models.load_model('saved_model/model')
+    MODEL = tf.keras.models.load_model('./train/models/simple-train-nb3.hdf5')
     LOOKUP = (
         #'air_conditioner', #r
         'car_horn', 

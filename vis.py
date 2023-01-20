@@ -109,10 +109,10 @@ class Mic(ui.Image):
         self.spec_button.rect.x += 5
         self.add_child(self.spec_button, current_offset=True)
     
-    def set_quad(self, quad):
-        self.quad = quad
-        if self.mic:
-            self.mic.set_quad(quad)
+        def set_quad(self, quad):
+            self.quad = quad
+            if self.mic:
+                self.mic.set_quad(quad)
 
     def pause(self):
         self.mic.set_recording(not self.mic.recording)
